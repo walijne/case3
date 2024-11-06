@@ -6,3 +6,4 @@ seaborn
 datetime
 plotly
 folium
+streamlit_folium
