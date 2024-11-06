@@ -14,7 +14,7 @@ st.set_page_config(page_title="Vluchtvertragingen Dashboard", layout="wide")
 # Load DataFrames
 df_vlieg_maatschappij = pd.read_csv('samengevoegde_luchtvaartmaatschappijen.csv')
 df_vlucht = pd.read_csv('airports-extended-clean.csv', delimiter=';')
-df_schema = pd.read_csv('schedule_airport.csv')
+df_schema = pd.read_csv('schedule_airport.csv.zip')
 
 # Data Cleaning and Processing
 df_schema.columns = df_schema.columns.str.strip().str.lower()  # Standardizing column names
